@@ -2,9 +2,8 @@
 
 Frontend application for managing patient records built with React, TypeScript, and modern tooling.
 
-## 🚀 Getting Started
+## Getting Started
 
-### Prerequisites
 - Node.js 18+ 
 - npm or yarn
 
@@ -22,7 +21,7 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## 🏗️ Tech Stack
+## Stack
 
 - React 18
 - TypeScript
@@ -33,10 +32,13 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 - TanStack Query (API Management)
 - Radix UI (Primitives)
 
-## 📁 Project Structure
+## Project Structure
+- Features folder, all related to patients, hooks, schemas, types and Components
+- Shared folder , for shared Components, Buttons, Modals, Card, etc
+- Store Folder with all the logic to manage data
 
-(To be documented)
+## Design Decisions
+- Starting with atoms, as specific compounds of components, to unify the usage of them
+- Used Radix UI with module from css to
+- Notification on Right Corner to update action for the user
 
-## 🎨 Design Decisions
-
-(To be documented)
