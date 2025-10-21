@@ -1,28 +1,15 @@
 export interface Patient {
   id: string;
   name: string;
-  email: string;
-  phone: string;
+  avatar: string;
+  description: string;
   website: string;
-  address: {
-    street: string;
-    suite: string;
-    city: string;
-    zipcode: string;
-  };
-  company: {
-    name: string;
-  };
+  createdAt: string;
 }
 
 export interface PatientFormData {
   name: string;
-  email: string;
-  phone: string;
+  avatar: string;
+  description: string;
   website: string;
-  street: string;
-  suite: string;
-  city: string;
-  zipcode: string;
-  companyName: string;
 }
